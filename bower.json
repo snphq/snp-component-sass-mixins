@@ -8,6 +8,7 @@
   "description": "Salt & Pepper sass mixins for frontend projects",
   "main": "index.sass",
   "keywords": [
+    "snp-component",
     "sass",
     "mixins",
     "snp"
