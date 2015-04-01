@@ -1,0 +1,23 @@
+{
+  "name": "snp-component-sass-mixins",
+  "version": "0.0.0",
+  "homepage": "https://github.com/snphq/snp-component-sass-mixins",
+  "authors": [
+    "Maksim Koretskiy <maksim.koretskiy@saltpepper.ru>"
+  ],
+  "description": "Salt & Pepper sass mixins for frontend projects",
+  "main": "index.sass",
+  "keywords": [
+    "sass",
+    "mixins",
+    "snp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
