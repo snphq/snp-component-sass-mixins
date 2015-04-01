@@ -1,0 +1,37 @@
+// Font installation script
+=font-install ($name, $path, $weight: "normal", $style: "normal")
+ $path-inner: "fonts/#{$path}"
+ @font-face
+   font-family: $name
+   src: url("#{$path-inner}.eot")
+   src: url("#{$path-inner}.eot?#iefix") format("embedded-opentype"), url("#{$path-inner}.woff") format("woff"), url("#{$path-inner}.ttf") format("truetype")
+   font-weight: #{$weight}
+   font-style: #{$style}
+
+=ellipsis
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+
+=clearfix
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+=placeholder
+  &:-moz-placeholder
+    @content
+  &:-ms-input-placeholder
+    @content
+  &::-webkit-input-placeholder
+    @content
+
+=inline-stretch
+  text-align: justify
+  &:after
+    content: ""
+    display: inline-block
+    width: 90%
+
+
