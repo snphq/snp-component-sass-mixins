@@ -4,5 +4,5 @@ Salt &amp; Pepper sass mixins for frontend projects
 ## Installation 
 
 ```bash
- > bower install snp-component-sass-mixins --save
+ > bower install snp-component-sass-mixin --save
 ```
