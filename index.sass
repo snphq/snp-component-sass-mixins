@@ -1,3 +1,28 @@
+// Universal media queries
+=media_interval($from, $to)
+  @media screen and (min-width: $from+1px) and (max-width: $to)
+    @content
+
+=media_more($to)
+  @media screen and (min-width: $to+1px)
+    @content
+
+=media_less($from)
+  @media screen and (max-width: $from)
+    @content
+
+=media_h_interval($from, $to)
+  @media screen and (min-height: $from+1px) and (max-height: $to)
+    @content
+
+=media_h_more($to)
+  @media screen and (min-height: $to+1px)
+    @content
+
+=media_h_less($from)
+  @media screen and (max-height: $from)
+    @content
+
 // Font installation script
 =font-install ($name, $path, $weight: "normal", $style: "normal")
  $path-inner: "fonts/#{$path}"
